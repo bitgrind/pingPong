@@ -29,7 +29,7 @@ function findMultiples(userClick){
     userClick = (userClick * -1);
   }
   console.log("click function input: "+userClick + ", clac:"+(userClick*-1));
-  for(i=userClick;i <= userClick+100; i++){
+  for(i=userClick;i <= userClick+103; i++){
     console.log('for loop running '+userClick);
     var currentNumber = i;
     //finding multiples of 3, 5 and 15
@@ -55,6 +55,9 @@ $(function(){
 
     //checking to make sure input is stored corretly
     console.log(userInput);
+
+    //clear ul
+    $("ul").html("");
 
     //triggering function filter that prompts if user inputs 0
     if(userInput === 0){
