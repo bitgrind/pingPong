@@ -12,6 +12,7 @@
 | Program will replace multiples of 3 with ping | 3 | ping |
 | Program will replace multiples of 5 with pong | 5 | pong |
 | Program will replace multiples of 15 with pong | 15 | ping-pong |   
+| Once program list number and multiples, li's will be clickable taking the value and putting it into another function to process another list starting at the user click value. | click(15) | 15,16,17... |   
 
 ## Author Keith Stedman
 ###License:

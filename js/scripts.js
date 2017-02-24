@@ -22,13 +22,13 @@ function findMultiples(userClick){
     var currentNumber = i;
     //finding multiples of 3, 5 and 15
     if ((currentNumber%15) == 0){
-      currentNumber = '<li onclick="listMultiples('+i+')" class="multipleOf15"><span>ping-pong</li></span>';
+      currentNumber = '<li onclick="findMultiples('+i+')" class="multipleOf15"><span>ping-pong</li></span>';
     } else if ((currentNumber%5) == 0){
-      currentNumber = '<li onclick="listMultiples('+i+')" class="multipleOf5"><span>pong</li></span>';
+      currentNumber = '<li onclick="findMultiples('+i+')" class="multipleOf5"><span>pong</li></span>';
     } else if((currentNumber%3) == 0){
-      currentNumber = '<li onclick="listMultiples('+i+')" class="multipleOf3"><span>ping</li></span>';
+      currentNumber = '<li onclick="findMultiples('+i+')" class="multipleOf3"><span>ping</li></span>';
     } else {
-      currentNumber = '<li onclick="listMultiples('+i+')"><span>'+currentNumber+'</span></li>';
+      currentNumber = '<li onclick="findMultiples('+i+')"><span>'+currentNumber+'</span></li>';
     }
     //checking output
     $("#output div ul").append(currentNumber);
