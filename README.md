@@ -15,4 +15,4 @@
 
 ## Author Keith Stedman
 ###License:
-####Copyright (c) 2017 Keith Stedman, This is a MIT license.
+####Copyright (c) 2017 Keith Stedman, This is a MIT license, feel free to fork, clone or download and use!
