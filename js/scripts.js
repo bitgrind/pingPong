@@ -45,6 +45,10 @@ $(function(){
     console.log(userInput);
 
     //triggering function
-    listMultiples(userInput);
+    if(userInput > 0){
+      listMultiples(userInput);
+    } else {
+      prompt("Please enter a real number:");
+    }
   });
 });
