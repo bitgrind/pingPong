@@ -38,7 +38,6 @@ function findMultiples(userClick){
 $(function(){
   $("#userNumber").submit(function(){
     event.preventDefault();
-    
     //get user input
     var userInput = $("#input").val();
 
